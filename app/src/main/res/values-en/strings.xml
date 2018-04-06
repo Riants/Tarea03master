@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tarea03</string>
+    <string name="configuracion">Configuration</string>
+    <string name="perfil">Profile</string>
+    <string name="favoritos">Favorites</string>
+    <string name="ingresos">Income</string>
+    <string name="prespuesto">Budget</string>
+    <string name="egresos">Expenses</string>
+</resources>

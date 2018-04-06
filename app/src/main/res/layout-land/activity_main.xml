@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="3"
+    android:rowCount="2">
+
+
+
+    <LinearLayout
+        android:id="@+id/configuracion"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#00BFA5"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/build"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/configuracion"
+            android:textColor="#F8FBEF"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cuenta"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#4CAF50"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+        
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/account"
+            />
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/perfil"
+            android:textColor="#F8FBEF"
+            />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/presupuesto"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#FF8F00"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/wallet"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/prespuesto"
+            android:textColor="#F8FBEF"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/favoritos"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#01579B"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:src="@drawable/favourite"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/favoritos"
+            android:textColor="#F8FBEF"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ingresos"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#9C27B0"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/money"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ingresos"
+            android:textColor="#F8FBEF"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/egreso"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#DD2C00"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/expenses"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/egresos"
+            android:paddingTop="0dp"
+            android:textColor="#F8FBEF"
+            />
+
+    </LinearLayout>
+
+
+
+</GridLayout>
